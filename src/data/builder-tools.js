@@ -563,6 +563,14 @@ const Showcases = [
     getstarted: "/docs/get-started/cscli",
     tags: ["getstarted", "cli"],
   },
+  {
+    title: "Cexplorer.io",
+    description: "Rich featured blockchain explorer with support of all testnet instances.",
+    preview: require("./builder-tools/cexplorer.png"),
+    website: "https://cexplorer.io",
+    getstarted: null,
+    tags: ["operatortool", "api", "nft"],
+  }
 ];
 
 export const TagList = Object.keys(Tags);
